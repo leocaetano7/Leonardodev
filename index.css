@@ -1,40 +1,29 @@
 body {
-    background-color: black;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
-}
-
-ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    align-items: center;
-    padding: 16px;
-}
-
-a {
-    text-decoration: none;
-    color: #017fe6;
+    font-size: larger;
 }
 
 header img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid #017fe6;
+    border: 5px solid #007be0;
 }
 
-.center {
+.eu {
     text-align: center;
+    margin: 20px;
+    padding: 20px;
 }
 
 h1 {
-    color: #017fe6;
+    color: #156bb1;
 }
 
 footer img {
-width: 40px;
-height: 40px;
+width: 30px;
+height: 30px;
 }
 
 footer{
@@ -45,18 +34,118 @@ footer{
 footer a {
     margin: 15px;
     text-align: center;
-
+text-decoration: none;
 }
 
 footer p {
     margin-top: 2px;
     color: white;
+    list-style-type: none;
 }
 
-.container {
+
+nav a:hover {
+    color: #e8e9f5;
+}
+
+.rosto {
     padding: 0px 50px;
 }
 
-nav a:hover {
-    color: #e8e9f5
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
+body  {
+    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+  background-size:cover;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
+
+.center
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(75, 75, 250, 0.3);
+  border-radius: 3px;
+}
+.center h1{
+  text-align:center;
+  color:white;
+  font-family: 'Source Code Pro', monospace;
+  text-transform:uppercase;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+ul {
+    margin: -15px auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    background-color: rgb(37, 37, 39);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 20px;
 }
