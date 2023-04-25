@@ -286,6 +286,10 @@ padding: 40px;
     }
 }
 
+.processo{
+    margin-top: 100px;
+}
+
 /*---responsivo---*/
 
 @media(max-width: 992px){
