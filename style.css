@@ -457,7 +457,7 @@ span.carregando {
     border-radius: 50%; 
     border: 12px solid #9ACD32; 
     border-top: 12px solid transparent;
-    margin-left: 130px;
+    margin-left: 207px;
     margin-top: 50px;
     animation: loading 1s linear infinite;
 }
