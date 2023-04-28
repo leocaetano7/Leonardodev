@@ -18,14 +18,32 @@ html{
     scroll-behavior: smooth;
 }
 
-/*----header*/
+/*----header-----*/
+
+.logo {
+        width: 50%; 
+        height: auto; 
+        animation: aparecer 3s ease-in;
+}
+
+
+@keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
 header{
+    margin-top: -110px;
     background-color: black;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    font-family: 'Star Renegades', sans-serif;
 }
 
 header h1 {
@@ -174,7 +192,8 @@ padding: 40px;
     font-size: 2.5rem;
     color: #9ACD32; 
     margin-bottom: 15px;
-    font-family: 'Magic Sound', sans-serif;;
+    font-family: 'Star Renegades', sans-serif;
+
 }
 
 .sobre_titulo p {
@@ -247,6 +266,7 @@ padding: 40px;
     grid-row: 2;
     grid-column: 1/-1;
 }
+
 
 .sobre_info {
     margin-top: 30px;
@@ -457,7 +477,7 @@ span.carregando {
     border-radius: 50%; 
     border: 12px solid #9ACD32; 
     border-top: 12px solid transparent;
-    margin-left: 207px;
+    margin-left: 120px;
     margin-top: 50px;
     animation: loading 1s linear infinite;
 }
