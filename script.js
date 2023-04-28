@@ -14,7 +14,6 @@ function escrevendoLetra(){
     ativaLetra(titulo);
 }
 
-// chama a função escrevendoLetra() aqui
 escrevendoLetra();
 
 const ativaMenu = document.querySelector('.fa-bars');
