@@ -20,10 +20,20 @@ html{
 
 /*----header-----*/
 
+@keyframes girar {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
+  
 .logo {
         width: 50%; 
         height: auto; 
-        animation: aparecer 3s ease-in;
+        animation: aparecer 7s ease forwards, girar 4s ease-in;
 }
 
 
@@ -463,12 +473,125 @@ padding: 40px;
     border-left: 2px solid #9ACD32;
 }
 
+
+/*----projetos----*/
+
 .projetos{
     text-align: center;
     justify-content: center;
     display: flex;
     width: 100%;
 }
+
+.panel {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #111;
+    padding: 10px;
+    margin-top: 40px;
+  }
+  
+
+.projetos {
+    padding: 60px;
+    color: white;
+}
+.projetos ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.projetos ul li {
+    cursor: pointer;
+    border-radius: 6px;
+    position: relative;
+    padding: 10px;
+    display: grid;
+    gap: 30px;
+    text-align: center;
+    max-width: 200px;
+    align-content: center;
+    height: 150px;
+    background-color: #222;
+}
+
+.projetos ul li i {
+    font-size: 2.7rem;
+    color: #9ACD32;
+}
+
+.projetos ul li h3 {
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+
+.projetos ul li p {
+    color: #717171;
+    font-size: 1.1rem;
+    margin-top: -35px;
+    word-spacing: 5px;
+    letter-spacing: 10px;
+}
+
+.projetos li::before {
+    content: '';
+    transition: .5s ease-in-out;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    border-top: 2px solid transparent;
+    border-right: 2px solid transparent;
+}
+
+.projetos li::after {
+    content: '';
+    transition: .5s ease-in-out;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    bottom: -2px;
+    left: -2px;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
+}
+
+.projetos li:hover::before {
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #9ACD32;
+    border-right: 2px solid #9ACD32;
+}
+
+.projetos li:hover::after {
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid #9ACD32;
+    border-left: 2px solid #9ACD32;
+}
+
+
+/*----Carregando----*/  
+
+span.carrega {
+    width: 60px;
+    height: 60px;
+    background-color: transparent ;
+    display: block;
+    border-radius: 50%; 
+    border: 12px solid #9ACD32; 
+    border-top: 12px solid transparent;
+    margin-top: 50px;
+    animation: loading 1s linear infinite;
+}
+
+
 span.carregando {
     width: 60px;
     height: 60px;
@@ -477,7 +600,7 @@ span.carregando {
     border-radius: 50%; 
     border: 12px solid #9ACD32; 
     border-top: 12px solid transparent;
-    margin-left: 120px;
+    margin-left: 520px;
     margin-top: 50px;
     animation: loading 1s linear infinite;
 }
