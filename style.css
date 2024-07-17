@@ -137,7 +137,7 @@ header .nave li a::after {
     border-radius: 50%;
     background-color: #000;
     transition: background-color 0.3s ease;
-    margin-right: 37px; /* Adicione essa linha para criar espaçamento entre os elementos */
+    margin-right: 37px; 
   }
   
   .links a:first-child {
