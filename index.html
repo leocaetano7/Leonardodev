@@ -3,243 +3,439 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Leonardo Caetano</title>
-    <link rel="stylesheet" href="style.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Leonardo Caetano | Desenvolvedor Full Stack</title>
+    <meta name="description" content="Portfólio de Leonardo Caetano, desenvolvedor full stack em Natal, RN. Aplicações web com React, Next.js, TypeScript, C# e ASP.NET Core.">
+    <meta name="theme-color" content="#0a0e13">
+    <meta property="og:title" content="Leonardo Caetano | Desenvolvedor Full Stack">
+    <meta property="og:description" content="Aplicações web do layout ao deploy: React, Next.js, TypeScript, C#, ASP.NET Core, PostgreSQL e Docker.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://leocaetano7.github.io/Leonardodev/">
+    <meta property="og:image" content="https://leocaetano7.github.io/Leonardodev/img/perfil.jpg">
     <link rel="icon" href="img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<link href="https://fonts.cdnfonts.com/css/star-renegades" rel="stylesheet">
-<style>
-@import url('https://fonts.cdnfonts.com/css/star-renegades');
-</style>
-
 <body>
-<header>
-    <h1><img src="img/LC.png" alt="" class="logo"></h1>
-    <nav>
-        <ul class="nave">
-            <li><a href="#um">Início</a></li>
-            <li><a href="#dois">Sobre mim</a></li>
-            <li><a href="#tres">Habilidades</a></li>
-            <li><a href="#quatro">Projetos</a></li>
-            <li><a href="#cinco">Certificados</a></li>
-        </ul>
-    </nav>
-    <i class="fa-solid fa-bars"></i>
+<div class="progresso" aria-hidden="true"></div>
+
+<header class="topo">
+    <div class="container topo-conteudo">
+        <a href="#inicio" class="marca" aria-label="Início"><img src="img/LC.png" alt="Leonardo Caetano"></a>
+        <nav class="menu" aria-label="Principal">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#certificados">Certificados</a></li>
+                <li class="menu-contato"><a href="#contato" class="btn btn-primario btn-pequeno">Contato</a></li>
+            </ul>
+        </nav>
+        <button class="menu-botao" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
 </header>
-<section aria-label class="section-div" id="um">
-    <div class="desce">
-        <h2>Olá, Me chamo</h2>
-        <br>
-        <h2 class="digitando">Leonardo Caetano</h2>
-        <p></p> 
-        <br>
-        <br>
-        <div class="links">
-            <a href="https://www.linkedin.com/in/leonardo-caetano-05400a226/" class="linkedin"><i class="fa-brands fa-linkedin fa-2xl" style="color: #9acd32;"></i></a> 
-            <a href="https://github.com/leocaetano7"><i class="fa-brands fa-github fa-2xl" style="color: #9acd32;"></i></i></a>
-            <a href="https://www.instagram.com/leo_tatuujey7/"><i class="fa-brands fa-instagram fa-2xl" style="color: #9acd32;"></i></a>    
-        </div>
-    </div>
-   <img src="img/xd.png" alt="imagem de uma pessoa">
-   </section>
-<main>
-    <article aria-label="seção sobre mim" class="sobre" id="dois"> 
-       <div class="sobre_titulo">
-        <h1>Sobre mim</h1>
-        <div aria-label="Seção de ilustração de botões">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </div> 
-<img src="img/lendo.png" alt="Imagem ed pessoa ilustrativa">
-<div class="sobre_conteudo">
-    <div class="sobre_texto">
-<h1></h1>
-<p>Tenho 26 anos. Quando comecei a estudar Ciência e Tecnologia na UFRN, logo percebi que o curso não me levaria à área de sistemas e tecnologia, que sempre quis seguir. Então, tomei a difícil decisão de trancar o curso e me transferir para a Estácio, onde comecei a cursar Ciências da Tecnologia e finalmente encontrei meu caminho na área de desenvolvimento de software. 
-    Agora estou animado com as oportunidades que surgirão no futuro e grato por ter tido coragem de seguir meus sonhos. Essa jornada não foi fácil, mas estou feliz por ter encontrado minha paixão e estar me especializando em algo que realmente amo.
-</p>
-</div>
-<div class="sobre_info">
-    <p><i class="fa-solid fa-calendar-days" style="margin-right: 5px;"></i>05 nov 1999</p>
-    <p><i class="fa-sharp fa-solid fa-laptop-code" style="margin-right: 0px;"></i>Freelancer Available</p>
-    <p><i class="fa-solid fa-location-dot" style="margin-right: 5px;"></i>Natal, Brazil</p>
-    <p><i class="fa-solid fa-solidd fa-globe" style="margin-right: 6px;"></i>Português, Espanhol e Inglês</p>
-    <p><i class="fa-solid fa-flag" style="margin-right: 5px;"></i>Brasileiro</p>
-    <p><i class="fa-solid fa-envelope" style="margin-right: 6px;"></i>Leo_caetanok7@outlook.com</p>
 
-</div>
-    </article>
-</main>
-<section class="sevices" id="tres">
-    <div class="sobre_titulo">
-        <h1>Habilidades</h1>
-        <div aria-label="Seção de ilustração de botões">
-            <span></span>
-            <span></span>
-            <span></span>
+<main>
+
+<!-- ============ INÍCIO ============ -->
+<section class="hero" id="inicio">
+    <div class="container hero-grid">
+        <div class="hero-texto">
+            <div class="hero-perfil">
+                <img src="img/perfil.jpg" alt="" class="hero-avatar">
+                <div>
+                    <p class="hero-nome">Leonardo Caetano</p>
+                    <p class="status"><span class="ponto"></span>Disponível para novos desafios</p>
+                </div>
+            </div>
+
+            <h1 class="hero-titulo">Construo aplicações web <span>do layout ao deploy.</span></h1>
+            <p class="hero-descricao">Desenvolvedor Full Stack na <strong>Echoes Digital</strong>, em Natal, RN. Crio interfaces com <strong>React</strong>, <strong>Next.js</strong> e <strong>TypeScript</strong> e back-ends em <strong>C#</strong> e <strong>ASP.NET Core</strong>, com PostgreSQL, Docker e CI/CD.</p>
+
+            <div class="hero-acoes">
+                <a href="#projetos" class="btn btn-primario">Ver projetos <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="curriculo-leonardo-caetano.pdf" download="Leonardo Caetano - Currículo.pdf" class="btn btn-secundario"><i class="fa-solid fa-download"></i> Baixar currículo</a>
+            </div>
+
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/leonardo-caetano-05400a226/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/leocaetano7" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/leo_tatuujey7/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="editor" aria-label="Resumo em código: Leonardo, desenvolvedor full stack na Echoes Digital, em Natal, com React, Next.js, TypeScript, C#, ASP.NET Core, PostgreSQL e Docker">
+                <div class="editor-barra">
+                    <span></span><span></span><span></span>
+                    <p>leonardo.js</p>
+                </div>
+<pre class="editor-codigo" aria-hidden="true"><code><span class="linha"><span class="kw">const</span> <span class="var">leonardo</span> <span class="pt">=</span> <span class="pt">{</span></span>
+<span class="linha">  <span class="prop">cargo</span><span class="pt">:</span> <span class="str">'Desenvolvedor Full Stack'</span><span class="pt">,</span></span>
+<span class="linha">  <span class="prop">empresa</span><span class="pt">:</span> <span class="str">'Echoes Digital'</span><span class="pt">,</span></span>
+<span class="linha">  <span class="prop">local</span><span class="pt">:</span> <span class="str">'Natal, RN'</span><span class="pt">,</span></span>
+<span class="linha">  <span class="prop">frontEnd</span><span class="pt">:</span> <span class="pt">[</span><span class="str">'React'</span><span class="pt">,</span> <span class="str">'Next.js'</span><span class="pt">,</span> <span class="str">'TypeScript'</span><span class="pt">],</span></span>
+<span class="linha">  <span class="prop">backEnd</span><span class="pt">:</span> <span class="pt">[</span><span class="str">'C#'</span><span class="pt">,</span> <span class="str">'ASP.NET Core'</span><span class="pt">,</span> <span class="str">'PostgreSQL'</span><span class="pt">],</span></span>
+<span class="linha">  <span class="prop">devOps</span><span class="pt">:</span> <span class="pt">[</span><span class="str">'Docker'</span><span class="pt">,</span> <span class="str">'GitHub Actions'</span><span class="pt">],</span></span>
+<span class="linha">  <span class="prop">idiomas</span><span class="pt">:</span> <span class="pt">[</span><span class="str">'PT'</span><span class="pt">,</span> <span class="str">'ES'</span><span class="pt">,</span> <span class="str">'EN'</span><span class="pt">],</span></span>
+<span class="linha">  <span class="prop">status</span><span class="pt">:</span> <span class="str">'aberto a novos desafios'</span><span class="pt">,</span></span>
+<span class="linha"><span class="pt">};</span><span class="cursor"></span></span></code></pre>
+            </div>
+            <a href="#projetos" class="hero-selo">
+                <span class="ponto"></span>
+                <span><strong>Student Registry</strong> no ar</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
         </div>
     </div>
-    <div class="my_services">
+
+    <a href="#sobre" class="hero-rolar" aria-label="Rolar para Sobre"><span></span></a>
+</section>
+
+<!-- faixa de tecnologias rolando -->
+<div class="faixa" aria-hidden="true">
+    <div class="faixa-trilho">
         <ul>
-            <li>
-                <i class="fa-brands fa-html5"></i>
-                <h3>HTML</h3>
-                <p>Linguagem de marcação para construção de paginas na Web</p>
-            </li>
-            <li>
-                <i class="fa-brands fa-css3-alt"></i>            
-                <h3>CSS</h3>
-                <p>Mecanismo para acrescentar estilo a um documento Web</p>
-            </li>
-            <li>
-                <i class="fa-brands fa-square-github"></i>               
-                 <h3>GitHub</h3>
-                <p>Plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git</p>
-            </li>
-            <li>
-                <i class="fa-brands fa-js"></i></i>
-                <h3>JavaScript</h3>
-                <p>Linguagem de programação, juntamente com HTML e CSS, é uma das três principais tecnologoias da web</p>
-            </li>
-            <li>
-                <i class="fa-brands fa-sass"></i>
-                <h3>SASS</h3>
-                <p>Linguagem de folhas de estilo, basicamente o SASS potencializa o CSS.</p>
-            </li>
-            <li>
-                <i class="fa-brands fa-react"></i>
-                <h3>ReactJS</h3>
-                <p>Plataforma de hospedagem de codigo-fonte e arquivos com controle de versão usando Git</p>
-            </li>
+            <li><i class="fa-brands fa-html5"></i> HTML</li>
+            <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+            <li><i class="fa-brands fa-sass"></i> SASS</li>
+            <li><i class="fa-brands fa-js"></i> JavaScript</li>
+            <li><span class="faixa-texto">TS</span> TypeScript</li>
+            <li><i class="fa-brands fa-react"></i> React</li>
+            <li><i class="fa-solid fa-n"></i> Next.js</li>
+            <li><i class="fa-solid fa-wind"></i> Tailwind</li>
+            <li><span class="faixa-texto">C#</span> C#</li>
+            <li><i class="fa-solid fa-layer-group"></i> ASP.NET Core</li>
+            <li><i class="fa-solid fa-database"></i> PostgreSQL</li>
+            <li><i class="fa-solid fa-cube"></i> Prisma</li>
+            <li><i class="fa-solid fa-bolt"></i> SignalR</li>
+            <li><i class="fa-brands fa-docker"></i> Docker</li>
+            <li><i class="fa-brands fa-git-alt"></i> Git</li>
+            <li><i class="fa-brands fa-github"></i> GitHub Actions</li>
         </ul>
     </div>
-</section>
+</div>
 
-<section class="projetos" id="quatro">
-    <div class="sobre_titulo">
-        <h1>Projetos</h1>
-        <div aria-label="Seção de ilustração de botões">
-            <span></span>
-            <span></span>
-            <span></span>
+<!-- ============ SOBRE ============ -->
+<section class="secao" id="sobre">
+    <div class="container sobre-grid">
+        <div class="sobre-foto revelar">
+            <img src="img/perfil.jpg" alt="Foto de Leonardo Caetano">
         </div>
 
-        <div class="panel">
-            <div class="projetos">
-                <ul>
-                    <a href="#quatro">
-                        <li class="P1" >
-                        <i></i>
-                        <h3></h3>
-                        <p>EM BREVE</p>
-                    </li></a>
-                    <a href="#quatro">
-                    <li>   
-                    <i class="P2"></i>            
-                        <h3></h3>
-                        <p>EM BREVE</p>
-                    </li>   
-                    </a>
-                        
-                    <a href="#quatro">
-                    <li>
-                        <i class="P3"></i>               
-                         <h3></h3>
-                        <p>EM BREVE</p>
-                    </li>    
-                    </a>
-                    
-                    <a href="#quatro">
-                    <li>
-                        <i class="P4"></i></i>
-                        <h3></h3>
-                        <p>EM BREVE</p>
-                    </li>   
-                    </a>
-                    
-                    <a href="#quatro">
-                    <li>
-                        <i class="P5"></i>
-                        <h3></h3>
-                        <p>EM BREVE</p>
-                    </li>
-                    </a>
-                    
-                    <a href="#quatro">
-                    <li>
-                        <i class="P6"></i>
-                        <h3></h3>   
-                        <p>EM BREVE</p>
-                    </li>
-                    </a>
+        <div class="sobre-texto revelar">
+            <p class="rotulo">sobre mim</p>
+            <h2 class="titulo">Encontrei no <span>desenvolvimento de software</span> o caminho que sempre quis seguir.</h2>
+            <p>Tenho <span class="idade">26</span> anos. Quando comecei a estudar Ciência e Tecnologia na UFRN, logo percebi que o curso não me levaria à área de sistemas e tecnologia, que sempre quis seguir. Então, tomei a difícil decisão de trancar o curso e me transferir para a Estácio, onde comecei a cursar Ciências da Tecnologia e finalmente encontrei meu caminho na área de desenvolvimento de software.</p>
+            <p>Agora estou animado com as oportunidades que surgirão no futuro e grato por ter tido coragem de seguir meus sonhos. Essa jornada não foi fácil, mas estou feliz por ter encontrado minha paixão e estar me especializando em algo que realmente amo.</p>
 
-                    <a href="#quatro"> 
-                    <li>
-                        <i class="P7"></i>
-                        <h3></h3>   
-                        <p>EM BREVE</p>
-                    </li></a>
-                    <a href="#quatro">
-                    <li>
-                        <i class="P8"></i>
-                        <h3></h3>   
-                        <p>EM BREVE</p>
-                    </li>    
-                    </a>  
+            <ul class="fatos">
+                <li><i class="fa-solid fa-location-dot"></i><div><span>Localização</span><p>Natal, RN</p></div></li>
+                <li><i class="fa-solid fa-graduation-cap"></i><div><span>Formação</span><p>Ciências da Tecnologia · 8º período</p></div></li>
+                <li><i class="fa-solid fa-language"></i><div><span>Idiomas</span><p>Inglês intermediário · Espanhol básico</p></div></li>
+                <li><i class="fa-solid fa-briefcase"></i><div><span>Atualmente</span><p>Full Stack na Echoes Digital</p></div></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ============ EXPERIÊNCIA ============ -->
+<section class="secao secao-alt" id="experiencia">
+    <div class="container experiencia-grid">
+        <div class="experiencia-intro revelar">
+            <p class="rotulo">experiência</p>
+            <h2 class="titulo">Minha <span>trajetória</span></h2>
+            <p>Comecei em funções operacionais e de liderança, cresci até Analista de Dados II e hoje trabalho como desenvolvedor full stack. Pelo caminho, uso front-end e back-end para criar soluções técnicas, automatizar resultados e otimizar fluxos de trabalho.</p>
+            <a href="curriculo-leonardo-caetano.pdf" download="Leonardo Caetano - Currículo.pdf" class="btn btn-secundario"><i class="fa-solid fa-download"></i> Currículo completo</a>
+        </div>
+
+        <ol class="linha-tempo">
+            <li class="experiencia atual revelar">
+                <div class="experiencia-topo">
+                    <span class="experiencia-periodo">2026 — atual</span>
+                    <span class="experiencia-selo"><span class="ponto"></span>Atual</span>
+                </div>
+                <h3>Full Stack Developer</h3>
+                <p class="experiencia-empresa">Echoes Digital</p>
+                <p>Desenvolvimento de aplicações web de ponta a ponta, do front-end ao back-end.</p>
+            </li>
+            <li class="experiencia revelar">
+                <div class="experiencia-topo">
+                    <span class="experiencia-periodo">2024 — 2026</span>
+                </div>
+                <h3>Analista de Dados N2</h3>
+                <p class="experiencia-empresa">Teleperformance</p>
+                <p>Soluções técnicas com front-end e back-end para automatizar resultados e otimizar fluxos operacionais.</p>
+            </li>
+            <li class="experiencia revelar">
+                <div class="experiencia-topo">
+                    <span class="experiencia-periodo">2023 — 2024</span>
+                </div>
+                <h3>Programador Front-end e Back-end</h3>
+                <p class="experiencia-empresa">RME Manutenção Industrial</p>
+                <p>Desenvolvimento do site institucional da empresa. <a href="https://leocaetano7.github.io/RME/" target="_blank" rel="noopener noreferrer">Ver o site <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+            </li>
+            <li class="experiencia revelar">
+                <div class="experiencia-topo">
+                    <span class="experiencia-periodo">2022 — 2024</span>
+                </div>
+                <h3>Criador e Marketing</h3>
+                <p class="experiencia-empresa">Vivokeyd Stars</p>
+                <p>Criação de conteúdo e ações de marketing.</p>
+            </li>
+            <li class="experiencia revelar">
+                <div class="experiencia-topo">
+                    <span class="experiencia-periodo">2021 — 2022</span>
+                </div>
+                <h3>Expert em Interação</h3>
+                <p class="experiencia-empresa">Teleperformance</p>
+                <p>Primeiro passo na empresa onde depois voltei como Analista de Dados.</p>
+            </li>
+        </ol>
+    </div>
+</section>
+
+<!-- ============ HABILIDADES ============ -->
+<section class="secao" id="habilidades">
+    <div class="container">
+        <div class="cabecalho revelar">
+            <p class="rotulo">habilidades</p>
+            <h2 class="titulo">Minha <span>stack</span></h2>
+            <p>As tecnologias que uso para tirar uma ideia do papel e colocar no ar.</p>
+        </div>
+
+        <div class="stack">
+            <article class="stack-card revelar">
+                <div class="stack-icone"><i class="fa-solid fa-laptop-code"></i></div>
+                <h3>Front-end</h3>
+                <p>Interfaces responsivas, acessíveis e componentizadas.</p>
+                <ul class="chips">
+                    <li><i class="fa-brands fa-html5"></i> HTML</li>
+                    <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+                    <li><i class="fa-brands fa-sass"></i> SASS</li>
+                    <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                    <li><span class="chip-texto">TS</span> TypeScript</li>
+                    <li><i class="fa-brands fa-react"></i> React</li>
+                    <li><i class="fa-solid fa-n"></i> Next.js</li>
+                    <li><i class="fa-solid fa-wind"></i> Tailwind</li>
                 </ul>
-            </div>
-          </div>
-    </section>
-
-<section>
-        <div class="sobre_titulo">
-        <h1>Certificados</h1>
-        <div aria-label="Seção de ilustração de botões">
-            <span></span>
-            <span></span>
-            <span></span>
+            </article>
+            <article class="stack-card revelar">
+                <div class="stack-icone"><i class="fa-solid fa-server"></i></div>
+                <h3>Back-end</h3>
+                <p>APIs, bancos de dados e comunicação em tempo real com .NET e Next.js.</p>
+                <ul class="chips">
+                    <li><span class="chip-texto">C#</span> C#</li>
+                    <li><i class="fa-solid fa-layer-group"></i> ASP.NET Core</li>
+                    <li><i class="fa-solid fa-cubes"></i> Entity Framework</li>
+                    <li><i class="fa-solid fa-bolt"></i> SignalR</li>
+                    <li><i class="fa-solid fa-database"></i> PostgreSQL</li>
+                    <li><i class="fa-solid fa-cube"></i> Prisma</li>
+                </ul>
+            </article>
+            <article class="stack-card revelar">
+                <div class="stack-icone"><i class="fa-solid fa-gears"></i></div>
+                <h3>DevOps e ferramentas</h3>
+                <p>Versionamento, containers e deploy automatizado.</p>
+                <ul class="chips">
+                    <li><i class="fa-brands fa-git-alt"></i> Git</li>
+                    <li><i class="fa-brands fa-github"></i> GitHub</li>
+                    <li><i class="fa-solid fa-rotate"></i> GitHub Actions</li>
+                    <li><i class="fa-brands fa-docker"></i> Docker</li>
+                </ul>
+            </article>
         </div>
-
-
-        <div class="container" id="cinco">
-          <button class="arrow-left control" aria-label="Previous image">◀</button>
-          <button class="arrow-right control" aria-label="Next Image">▶</button>
-          <div class="gallery-wrapper">
-            <div class="gallery" >
-             
-             <a href="https://workover.com.br/certificados/cursos/23598efc99b018c829843a9bbd2462fc/validador">
-                <img src="img/Comportamental.png" class="item current-item">
-             </a>
-             <a href="https://workover.com.br/certificados/cursos/99aa5d9d610e0d1acadf4dbd60f3143f/validador">
-                <img src="img/Algoritmos.png" class="item current-item">
-             </a>  
-             <a href="https://workover.com.br/certificados/cursos/245541b585f6044971e6b3eba0f248b9/validador">
-                 <img src="img/Scrum.png" class="item current-item">  
-             </a>
-             <a href="https://workover.com.br/certificados/cursos/a68420ff8e86ecb924ef66eb79975ce7/validador">
-                 <img src="img/Excel.png" class="item current-item">
-             </a> 
-             <a href="https://workover.com.br/certificados/cursos/676b48f968584823e120c9c2266431d8/validador">
-                <img src="img/HTML CSS.png" class="item current-item">
-             </a>
-            </div>
-          </div>
-        </div>
+    </div>
 </section>
 
-    
-    <footer>
-        <h3>Email para contato: Leo_caetanok7@outlook.com</h3>
-        <br>
-        <h3>Feito Por Leonardo Caetano</h3>
-        
-        <h3></h3>
-    </footer>
-<script type="text/javascript" src="script.js"></script>
+<!-- ============ PROJETOS ============ -->
+<section class="secao secao-alt" id="projetos">
+    <div class="container">
+        <div class="cabecalho revelar">
+            <p class="rotulo">projetos</p>
+            <h2 class="titulo">O que eu já <span>construí</span></h2>
+            <p>Projetos reais, com código aberto no GitHub.</p>
+        </div>
+
+        <article class="projeto-destaque revelar">
+            <a href="https://student-registry-wp6s.onrender.com" target="_blank" rel="noopener noreferrer" class="janela" aria-label="Abrir o Student Registry">
+                <div class="janela-barra"><span></span><span></span><span></span><p>student-registry.onrender.com</p></div>
+                <img src="img/projetos/student-registry.jpg" alt="Tela inicial do Student Registry" loading="lazy">
+            </a>
+            <div class="projeto-info">
+                <p class="projeto-selo"><span class="ponto"></span>Em produção</p>
+                <h3>Student Registry</h3>
+                <p>Sistema de gerenciamento de estudantes e planos Premium, feito em ASP.NET Core Razor Pages e publicado no Render com deploy automático a cada push.</p>
+                <ul class="projeto-lista">
+                    <li><i class="fa-solid fa-check"></i> Banco PostgreSQL com Entity Framework Core</li>
+                    <li><i class="fa-solid fa-check"></i> Docker e CI/CD com GitHub Actions</li>
+                    <li><i class="fa-solid fa-check"></i> Logs com Serilog e observabilidade com OpenTelemetry</li>
+                </ul>
+                <ul class="tags">
+                    <li>C#</li><li>ASP.NET Core</li><li>EF Core</li><li>PostgreSQL</li><li>Docker</li>
+                </ul>
+                <div class="projeto-links">
+                    <a href="https://student-registry-wp6s.onrender.com" target="_blank" rel="noopener noreferrer" class="btn btn-primario btn-pequeno">Ver ao vivo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://github.com/leocaetano7/student-registry" target="_blank" rel="noopener noreferrer" class="btn btn-secundario btn-pequeno"><i class="fa-brands fa-github"></i> Código</a>
+                </div>
+                <p class="projeto-nota">Hospedado no plano gratuito do Render: o primeiro acesso pode levar alguns segundos.</p>
+            </div>
+        </article>
+
+        <div class="projetos-grid">
+            <article class="projeto revelar">
+                <a href="https://github.com/leocaetano7/Tamanco" target="_blank" rel="noopener noreferrer" class="janela" aria-label="Abrir o código da Tamanco">
+                    <div class="janela-barra"><span></span><span></span><span></span><p>tamanco · Next.js</p></div>
+                    <img src="img/projetos/tamanco.jpg" alt="Página inicial da loja Tamanco, com o catálogo de camisetas e moletons" loading="lazy">
+                </a>
+                <div class="projeto-corpo">
+                    <h3>Tamanco</h3>
+                    <p>Loja de roupas completa: catálogo, carrinho, checkout com baixa de estoque e painel para cadastrar produtos, com API própria.</p>
+                    <ul class="tags">
+                        <li>Next.js</li><li>TypeScript</li><li>Tailwind</li><li>Prisma</li><li>PostgreSQL</li>
+                    </ul>
+                    <div class="projeto-links">
+                        <a href="https://github.com/leocaetano7/Tamanco" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Código</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="projeto revelar">
+                <a href="https://leocaetano7.github.io/RME/" target="_blank" rel="noopener noreferrer" class="janela" aria-label="Abrir o site da RME">
+                    <div class="janela-barra"><span></span><span></span><span></span><p>leocaetano7.github.io/RME</p></div>
+                    <img src="img/projetos/rme.jpg" alt="Página inicial do site da RME Manutenção Industrial" loading="lazy">
+                </a>
+                <div class="projeto-corpo">
+                    <p class="projeto-tipo"><i class="fa-solid fa-briefcase"></i> Projeto profissional</p>
+                    <h3>RME Manutenção Industrial</h3>
+                    <p>Site institucional que desenvolvi como programador da empresa, com carrossel, portfólio e contato.</p>
+                    <ul class="tags">
+                        <li>HTML</li><li>CSS</li><li>JavaScript</li>
+                    </ul>
+                    <div class="projeto-links">
+                        <a href="https://leocaetano7.github.io/RME/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Site</a>
+                        <a href="https://github.com/leocaetano7/RME" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Código</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="projeto revelar">
+                <a href="https://leocaetano7.github.io/Additive/" target="_blank" rel="noopener noreferrer" class="janela" aria-label="Abrir o site da Additive">
+                    <div class="janela-barra"><span></span><span></span><span></span><p>leocaetano7.github.io/Additive</p></div>
+                    <img src="img/projetos/additive.jpg" alt="Página inicial do site da Additive" loading="lazy">
+                </a>
+                <div class="projeto-corpo">
+                    <h3>Additive</h3>
+                    <p>Site institucional para uma empreiteira de Resende e região.</p>
+                    <ul class="tags">
+                        <li>HTML</li><li>CSS</li>
+                    </ul>
+                    <div class="projeto-links">
+                        <a href="https://leocaetano7.github.io/Additive/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Site</a>
+                        <a href="https://github.com/leocaetano7/Additive" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Código</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <a href="https://github.com/leocaetano7?tab=repositories" target="_blank" rel="noopener noreferrer" class="ver-mais revelar">Ver todos os repositórios no GitHub <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+</section>
+
+<!-- ============ CERTIFICADOS ============ -->
+<section class="secao" id="certificados">
+    <div class="container">
+        <div class="cabecalho revelar">
+            <p class="rotulo">certificados</p>
+            <h2 class="titulo">Sempre <span>aprendendo</span></h2>
+            <p>5 cursos concluídos na Workover Academy, somando 18 horas de estudo.</p>
+        </div>
+
+        <div class="carrossel revelar" aria-roledescription="carrossel" aria-label="Certificados">
+            <div class="carrossel-palco">
+                <a class="cert" href="https://workover.com.br/certificados/cursos/99aa5d9d610e0d1acadf4dbd60f3143f/validador" target="_blank" rel="noopener noreferrer" data-titulo="Algoritmos e Lógica de Programação" data-horas="7">
+                    <img src="img/certificados/algoritmos.jpg" alt="Certificado de Algoritmos e Lógica de Programação" draggable="false">
+                </a>
+                <a class="cert" href="https://workover.com.br/certificados/cursos/676b48f968584823e120c9c2266431d8/validador" target="_blank" rel="noopener noreferrer" data-titulo="HTML e CSS para Landing Page" data-horas="4">
+                    <img src="img/certificados/html-css.jpg" alt="Certificado de HTML e CSS para Landing Page" draggable="false">
+                </a>
+                <a class="cert" href="https://workover.com.br/certificados/cursos/245541b585f6044971e6b3eba0f248b9/validador" target="_blank" rel="noopener noreferrer" data-titulo="Scrum" data-horas="2">
+                    <img src="img/certificados/scrum.jpg" alt="Certificado de Scrum" draggable="false">
+                </a>
+                <a class="cert" href="https://workover.com.br/certificados/cursos/a68420ff8e86ecb924ef66eb79975ce7/validador" target="_blank" rel="noopener noreferrer" data-titulo="Excel Básico" data-horas="2">
+                    <img src="img/certificados/excel.jpg" alt="Certificado de Excel Básico" draggable="false">
+                </a>
+                <a class="cert" href="https://workover.com.br/certificados/cursos/23598efc99b018c829843a9bbd2462fc/validador" target="_blank" rel="noopener noreferrer" data-titulo="Curso Comportamental" data-horas="3">
+                    <img src="img/certificados/comportamental.jpg" alt="Certificado do Curso Comportamental" draggable="false">
+                </a>
+            </div>
+
+            <button class="carrossel-btn anterior" aria-label="Certificado anterior"><i class="fa-solid fa-chevron-left"></i></button>
+            <button class="carrossel-btn proximo" aria-label="Próximo certificado"><i class="fa-solid fa-chevron-right"></i></button>
+
+            <div class="carrossel-info" aria-live="polite">
+                <h3 class="carrossel-titulo"></h3>
+                <p class="carrossel-detalhe"></p>
+            </div>
+            <div class="carrossel-dots"></div>
+        </div>
+
+        <div class="outros-cursos revelar">
+            <h3>Outros cursos</h3>
+            <ul class="chips">
+                <li><i class="fa-solid fa-vial-circle-check"></i> TDD (Test-Driven Development)</li>
+                <li><i class="fa-brands fa-python"></i> Tutorial de TDD com Python</li>
+                <li><i class="fa-solid fa-globe"></i> Programação para Internet</li>
+                <li><i class="fa-solid fa-server"></i> Máquinas Virtuais Básico</li>
+                <li><i class="fa-solid fa-folder-tree"></i> Gerência, Organização e Recuperação das Informações</li>
+                <li><i class="fa-solid fa-pen-nib"></i> Escrita em Inglês: básico, intermediário e avançado</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ============ CONTATO ============ -->
+<section class="secao" id="contato">
+    <div class="container">
+        <div class="contato revelar">
+            <p class="rotulo">contato</p>
+            <h2 class="titulo">Vamos construir algo <span>juntos?</span></h2>
+            <p>Estou aberto a vagas, projetos freelance e novos desafios. Me mande uma mensagem!</p>
+            <div class="contato-acoes">
+                <a href="mailto:Leo_caetanok7@outlook.com" class="btn btn-primario"><i class="fa-regular fa-envelope"></i> Enviar e-mail</a>
+                <button class="btn btn-secundario copiar-email" data-email="Leo_caetanok7@outlook.com"><i class="fa-regular fa-copy"></i> Copiar e-mail</button>
+                <a href="https://www.linkedin.com/in/leonardo-caetano-05400a226/" target="_blank" rel="noopener noreferrer" class="btn btn-secundario"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+                <a href="curriculo-leonardo-caetano.pdf" download="Leonardo Caetano - Currículo.pdf" class="btn btn-secundario"><i class="fa-solid fa-download"></i> Currículo</a>
+            </div>
+            <p class="contato-email">Leo_caetanok7@outlook.com</p>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<footer class="rodape">
+    <div class="container rodape-conteudo">
+        <img src="img/LC.png" alt="Leonardo Caetano" class="rodape-marca">
+        <p>© <span class="ano">2026</span> Leonardo Caetano. Feito com HTML, CSS e JavaScript.</p>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/leonardo-caetano-05400a226/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/leocaetano7" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/leo_tatuujey7/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </div>
+</footer>
+
+<a href="#inicio" class="voltar-topo" aria-label="Voltar ao topo"><i class="fa-solid fa-arrow-up"></i></a>
+
+<div class="aviso" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
 </body>
 
 </html>
